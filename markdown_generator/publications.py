@@ -61,6 +61,8 @@ def html_escape(text):
 
 # In[5]:
 
+file_prefix = 'http://jamieheather.github.io/files/'
+
 import os
 for row, item in publications.iterrows():
     
@@ -76,8 +78,25 @@ for row, item in publications.iterrows():
     
     md += """\npermalink: /publication/""" + html_filename
     
+    if not item.paper_url.startswith(file_prefix):
+    	item.paper_url = file_prefix + item.paper_url
+    
+    badge_pdf = "[![Static Badge](https://img.shields.io/badge/pdf-8A2BE2)](" + item.paper_url +") "
+    badge_doi = "[![Static Badge](https://img.shields.io/badge/doi-purple)](https://dx.doi.org/" + item.doi + ") "
+    
+    badges = badge_pdf + badge_doi
+    
+    if isinstance(item.data, str):
+    	badge_data = "[![Static Badge](https://img.shields.io/badge/data-green)](" + item.data +") "
+    	badges += badge_data
+    
+    if isinstance(item.code, str):
+    	badge_code = "[![Static Badge](https://img.shields.io/badge/code-blue)](" + item.code +") "
+    	badges += badge_code
+    
+    
     if len(str(item.excerpt)) > 5:
-        md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
+        md += "\nexcerpt: '" + badges + html_escape(item.excerpt) + "'"
     
     md += "\ndate: " + str(item.pub_date) 
     
@@ -86,19 +105,25 @@ for row, item in publications.iterrows():
     if len(str(item.paper_url)) > 5:
         md += "\npaperurl: '" + item.paper_url + "'"
     
-    md += "\ncitation: '" + html_escape(item.citation) + "'"
+#    md += "\ncitation: '" + html_escape(item.citation) + "'"
     
-    md += "\n---"
+    md += "\n---\n"
     
     ## Markdown description for individual page
     
-    if len(str(item.paper_url)) > 5:
-        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
+#    if len(str(item.paper_url)) > 5:
+#        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
+
+    
+    md += item.description + "\n\n"
+
+    md += "\n\n" + badges
+      
         
-    if len(str(item.excerpt)) > 5:
-        md += "\n" + html_escape(item.excerpt) + "\n"
+#    if len(str(item.excerpt)) > 5:
+#        md += "\n" + html_escape(item.excerpt) + "\n"
         
-    md += "\nRecommended citation: " + item.citation
+#    md += "\nRecommended citation: " + item.citation
     
     md_filename = os.path.basename(md_filename)
        
