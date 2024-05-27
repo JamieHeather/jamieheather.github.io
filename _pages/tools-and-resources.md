@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Science"
-permalink: /science/
+title: "Tools and Resources"
+permalink: /tools-and-resources/
 author_profile: true
 ---
 
