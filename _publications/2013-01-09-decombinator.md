@@ -2,7 +2,7 @@
 title: "Decombinator: a tool for fast, efficient gene assignment in T-cell receptor sequences using a finite state machine"
 collection: publications
 permalink: /publication/2013-01-09-decombinator
-excerpt: '[![Static Badge](https://img.shields.io/badge/pdf-8A2BE2)](http://jamieheather.github.io/files/Thomas_2013_Bioinf_Decombinator.pdf) [![Static Badge](https://img.shields.io/badge/doi-purple)](https://dx.doi.org/10.1093/bioinformatics/btt004) Decombinator, for TCRseq annotation'
+excerpt: '[![Static Badge](https://img.shields.io/badge/pdf-8A2BE2)](http://jamieheather.github.io/files/Thomas_2013_Bioinf_Decombinator.pdf) [![Static Badge](https://img.shields.io/badge/doi-purple)](https://dx.doi.org/10.1093/bioinformatics/btt004) Decombinator, for TCRseq annotation.'
 date: 2013-01-09
 venue: 'Bioinformatics'
 paperurl: 'http://jamieheather.github.io/files/Thomas_2013_Bioinf_Decombinator.pdf'

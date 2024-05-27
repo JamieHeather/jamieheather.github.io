@@ -2,7 +2,7 @@
 title: "Quantitative Characterization of the T Cell Receptor Repertoire of Naïve and Memory subsets Using an Integrated experimental and Computational Pipeline Which Is Robust, economical, and Versatile"
 collection: publications
 permalink: /publication/2017-10-12-tcrseq-protocol
-excerpt: '[![Static Badge](https://img.shields.io/badge/pdf-8A2BE2)](http://jamieheather.github.io/files/Oakes_2017_FoI_TCRseq-Protocol.pdf) [![Static Badge](https://img.shields.io/badge/doi-purple)](https://dx.doi.org/10.3389/fimmu.2017.01267) [![Static Badge](https://img.shields.io/badge/data-green)](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA390125) Our TCRseq pipeline'
+excerpt: '[![Static Badge](https://img.shields.io/badge/pdf-8A2BE2)](http://jamieheather.github.io/files/Oakes_2017_FoI_TCRseq-Protocol.pdf) [![Static Badge](https://img.shields.io/badge/doi-purple)](https://dx.doi.org/10.3389/fimmu.2017.01267) [![Static Badge](https://img.shields.io/badge/data-green)](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA390125) The Chain lab TCRseq pipeline.'
 date: 2017-10-12
 venue: 'Frontiers in Immunology'
 paperurl: 'http://jamieheather.github.io/files/Oakes_2017_FoI_TCRseq-Protocol.pdf'

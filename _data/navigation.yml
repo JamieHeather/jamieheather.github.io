@@ -23,6 +23,9 @@ main:
 
   - title: "Biography"
     url: /bio/
+
+  - title: "Tools and Resources"
+    url: /tools-and-resources/
     
 #  - title: "Science"
 #    url: /science/
