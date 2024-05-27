@@ -115,7 +115,7 @@ for row, item in publications.iterrows():
 #        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
 
     
-    md += item.description + "\n\n"
+    md += item.description.replace('\\n', '\n') + "\n\n"
 
     md += "\n\n" + badges
       

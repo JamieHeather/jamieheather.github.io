@@ -7,7 +7,10 @@ date: 2016-01-11
 venue: 'Frontiers in Immunology'
 paperurl: 'http://jamieheather.github.io/files/Heather_2016_FrontImmuno_HIV_TCR_RepSeq.pdf'
 ---
-This was the major biological paper of my PhD, and the first place we applied the error-correcting TCRseq amplification and analysis pipeline we had developed.\n\n\nIn it I demonstrated the profound impact that chronic untreated HIV infection has upon the TCR repertoire, surprisingly driven more by CD8 clonotype expansion rather than CD4 depletion.
+This was the major biological paper of my PhD, and the first place we applied the error-correcting TCRseq amplification and analysis pipeline we had developed.
+
+
+In it I demonstrated the profound impact that chronic untreated HIV infection has upon the TCR repertoire, surprisingly driven more by CD8 clonotype expansion rather than CD4 depletion.
 
 
 
