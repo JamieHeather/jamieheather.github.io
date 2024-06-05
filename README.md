@@ -35,7 +35,13 @@ To support this, all changes to the underlying code appear as a closed issue wit
 
 * Navigate to markdown_generator/
 * Add the details to the publications.tsv file
-* Run publications.py (to populate the markdown files)
+* Run `publications.py` (to populate the markdown files)
 * Navigate back to the root
 * Run `bundle clean` /  `bundle install` / `bundle exec jekyll liveserve` to check locally (as above)
 * If OK, push to github
+
+# JH adding 3d prints
+
+* Navigate to markdown_generator/
+* Add the details to the 3dprinting.tsv file
+* Run `3dprinting.py` (to populate the md file, but NB this actually just overwrites the text with a new table generated from the tsv)

@@ -10,4 +10,3 @@ author_profile: true
 You can email me on jheather\[at\]mgh.harvard.edu, or alternatively use the form below:
 
 {% include contact-form.html %}
-

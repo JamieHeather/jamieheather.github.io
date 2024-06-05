@@ -27,7 +27,10 @@ main:
 
   - title: "Tools and Resources"
     url: /tools-and-resources/
-    
+
+  - title: "3d-printed Labware"
+    url: /3dprinting/
+
 #  - title: "Science"
 #    url: /science/
 
