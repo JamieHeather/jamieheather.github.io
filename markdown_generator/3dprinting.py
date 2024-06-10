@@ -40,6 +40,8 @@ with open(out_file, 'w') as out_file:
 
         out_file.write(out_str)
 
-    out_text = ("\nNote that these are shared here under a CC BY-NC-SA license, "
+    out_text = ("\nAlternatively all of my public designs can be found "
+                "[on my Thingiverse page](https://www.thingiverse.com/jamimmunology/designs).\n\n"
+                "Note that these are shared here under a CC BY-NC-SA license, "
                 "however certain models are available under a less restrictive license from Thingiverse.\n")
     out_file.write(out_text)

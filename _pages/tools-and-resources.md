@@ -19,5 +19,6 @@ Here are links to some of the tools and resources I've made for various tasks in
 | [`novel-tcr-alleles`](https://github.com/JamieHeather/novel-tcr-alleles) | Collated resource of published novel TCR alleles.                                                                                                                                                                                                                                                                                                   |
 |   [`airrc2hlaguessr`](https://github.com/JamieHeather/airrc2hlaguessr)   | Convert [AIRR-C format data](https://docs.airr-community.org/en/stable/datarep/rearrangements.html) into that required for [`HLAGuessr`](https://github.com/statbiophys/HLAGuessr).                                                                                                                                                                 |
 
+Alternatively all of my repositories and contributions can be seen via my [Github page](https://github.com/JamieHeather/).
 
 

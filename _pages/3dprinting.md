@@ -28,4 +28,6 @@ I've been 3d printing labware since my PhD, as it's a cheap, quick, and convenie
 | <img src="../files/3dprinting/5ml-x15.png" width="300"/> | **5 ml FACS tube rack - 15 tubes** <br> [![Static Badge](https://img.shields.io/badge/stl-8A2BE2)](../files/3dprinting/facs-tube-rack-v1-2.stl) \| [![Static Badge](https://img.shields.io/badge/thingiverse-blue)](https://www.thingiverse.com/thing:4751339) |
 | <img src="../files/3dprinting/5ml-x45.jpg" width="300"/> | **5 ml FACS tube rack - 45 tubes** <br> [![Static Badge](https://img.shields.io/badge/stl-8A2BE2)](../files/3dprinting/facs-tube-rack-v2-2.stl) \| [![Static Badge](https://img.shields.io/badge/thingiverse-blue)](https://www.thingiverse.com/thing:4751346) |
 
+Alternatively all of my public designs can be found [on my Thingiverse page](https://www.thingiverse.com/jamimmunology/designs).
+
 Note that these are shared here under a CC BY-NC-SA license, however certain models are available under a less restrictive license from Thingiverse.
