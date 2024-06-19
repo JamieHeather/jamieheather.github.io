@@ -2,7 +2,7 @@
 title: "Computational analysis of stochastic heterogeneity in PCR amplification efficiency revealed by single molecule barcoding"
 collection: publications
 permalink: /publication/2015-10-13-pcr-stochasticity
-excerpt: '[![Static Badge](https://img.shields.io/badge/pdf-8A2BE2)](http://jamieheather.github.io/files/Best_2015_SciRep_PCR_stochasticity.pdf) [![Static Badge](https://img.shields.io/badge/doi-purple)](https://dx.doi.org/10.1038/srep14629) Inter-molecular stochasticity in PCR.'
+excerpt: '[![Static Badge](https://img.shields.io/badge/pdf-8A2BE2)](http://jamieheather.github.io/files/Best_2015_SciRep_PCR_stochasticity.pdf) [![Static Badge](https://img.shields.io/badge/doi-purple)](https://dx.doi.org/10.1038/srep14629) [![Static Badge](https://img.shields.io/badge/preprint-red)](https://dx.doi.org/10.1101/011411 ) Inter-molecular stochasticity in PCR.'
 date: 2015-10-13
 venue: 'Scientific Reports'
 paperurl: 'http://jamieheather.github.io/files/Best_2015_SciRep_PCR_stochasticity.pdf'
@@ -11,4 +11,4 @@ This paper was primarily the work of labmates Katharine Best and Theres Oakes (i
 
 
 
-[![Static Badge](https://img.shields.io/badge/pdf-8A2BE2)](http://jamieheather.github.io/files/Best_2015_SciRep_PCR_stochasticity.pdf) [![Static Badge](https://img.shields.io/badge/doi-purple)](https://dx.doi.org/10.1038/srep14629) 
+[![Static Badge](https://img.shields.io/badge/pdf-8A2BE2)](http://jamieheather.github.io/files/Best_2015_SciRep_PCR_stochasticity.pdf) [![Static Badge](https://img.shields.io/badge/doi-purple)](https://dx.doi.org/10.1038/srep14629) [![Static Badge](https://img.shields.io/badge/preprint-red)](https://dx.doi.org/10.1101/011411 ) 

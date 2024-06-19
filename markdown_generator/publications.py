@@ -77,15 +77,24 @@ for row, item in publications.iterrows():
     md += """collection: publications"""
     
     md += """\npermalink: /publication/""" + html_filename
-    
-    if not item.paper_url.startswith(file_prefix):
-    	item.paper_url = file_prefix + item.paper_url
-    
-    badge_pdf = "[![Static Badge](https://img.shields.io/badge/pdf-8A2BE2)](" + item.paper_url +") "
-    badge_doi = "[![Static Badge](https://img.shields.io/badge/doi-purple)](https://dx.doi.org/" + item.doi + ") "
-    
-    badges = badge_pdf + badge_doi
-    
+
+    badges = ''
+
+    if isinstance(item.paper_url, str):
+        if not item.paper_url.startswith(file_prefix):
+            item.paper_url = file_prefix + item.paper_url
+        badge_pdf = "[![Static Badge](https://img.shields.io/badge/pdf-8A2BE2)](" + item.paper_url +") "
+        badges += badge_pdf
+
+    if isinstance(item.doi, str):
+        badge_doi = "[![Static Badge](https://img.shields.io/badge/doi-purple)](https://dx.doi.org/" + item.doi + ") "
+        badges += badge_doi
+
+    if isinstance(item.preprint_doi, str):
+        badge_preprint = ("[![Static Badge](https://img.shields.io/badge/preprint-red)](https://dx.doi.org/"
+                          + item.preprint_doi + ") ")
+        badges += badge_preprint
+
     if isinstance(item.data, str):
     	badge_data = "[![Static Badge](https://img.shields.io/badge/data-green)](" + item.data +") "
     	badges += badge_data
