@@ -92,6 +92,7 @@ author:
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
+  bluesky          : "jamieheather.bsky.social"
   codepen          :
   dribbble         :
   flickr           :
@@ -110,7 +111,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "jamimmunology"
+  twitter          : #"jamimmunology"
   vine             :
   weibo            :
   xing             :
